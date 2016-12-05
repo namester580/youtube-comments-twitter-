@@ -25,8 +25,8 @@ var server = http.createServer(handleRequest);
 
 var twitterAPI = require('node-twitter-api');
 var twitter = new twitterAPI({
-    consumerKey: 'r4NoL17cD7ckBQU3MwGvp4pNx',
-    consumerSecret: 'jlraTMrqdLCrTeMRYd4IK8d17fsudc68U0JaqKHlGMNw5EVw7c',
+    consumerKey: 'r4Nx',
+    consumerSecret: 'jlVw7c',
     callback: 'http://placeholder.com'
 });
 
@@ -36,8 +36,8 @@ function tweet(comment) {
     twitter.statuses("update", {
             status: comment
         },
-        '766021912283807744-afIC4dy8Hm57WIuEqOCp8F4QsrDrgn9',
-        '9hiDITaKFo1gzI7mtNT1729a8qCD9EEy8bTQiHqM8OhGh',
+        '7660219122',
+        'fjbcdf',
         function (error, data, response) {
             if (error) {
                 // something went wrong
